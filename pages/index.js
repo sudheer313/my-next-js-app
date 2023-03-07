@@ -8,6 +8,8 @@ import Data from "@/components/Data";
 import ContactForm from "@/components/ContactForm";
 import Counter from "@/components/Counter";
 import State from "@/components/State";
+import State1 from "@/components/State1";
+import TodoList from "@/components/TodoList";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,8 +27,10 @@ export default function Home() {
         <Data />
         {/* <ContactForm />
         <Section /> */}
-        <State />
-        <Counter />
+        {/* <State /> */}
+        {/* <Counter />
+        <State1 /> */}
+        <TodoList />
       </main>
     </>
   );
