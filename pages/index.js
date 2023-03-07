@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Section from "@/components/Section";
 import Data from "@/components/Data";
 import ContactForm from "@/components/ContactForm";
+import Counter from "@/components/Counter";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,8 +22,9 @@ export default function Home() {
       <Header />
       <main>
         <Data />
-        <ContactForm />
-        <Section />
+        {/* <ContactForm />
+        <Section /> */}
+        <Counter />
       </main>
     </>
   );
