@@ -10,6 +10,7 @@ import Counter from "@/components/Counter";
 import State from "@/components/State";
 import State1 from "@/components/State1";
 import TodoList from "@/components/TodoList";
+import TodoList1 from "@/components/TodoList1";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,7 +31,8 @@ export default function Home() {
         {/* <State /> */}
         {/* <Counter />
         <State1 /> */}
-        <TodoList />
+        {/* <TodoList /> */}
+        <TodoList1 />
       </main>
     </>
   );
