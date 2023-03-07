@@ -6,8 +6,9 @@ const Counter = () => {
     setCount(count + 1);
   };
   const decrement = () => {
-    setCount(count - 1);
+    if (count > 0) setCount(count - 1);
   };
+
   const buttonStyle = {
     width: "200px",
     height: "80px",
